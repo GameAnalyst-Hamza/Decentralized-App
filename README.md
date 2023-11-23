@@ -31,11 +31,6 @@ Switch branch from main to Contract or D-Application
    ```bash
    git checkout D-Application
    ```
-   
-Install dependency using npm
-   ```bash
-   npm install
-   ```
 
 > Note: 
 `Contract` and `D-Application` contains different reference code for practice checkout relative Readme.md file for whats covered on those branches
