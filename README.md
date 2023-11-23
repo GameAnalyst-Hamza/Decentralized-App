@@ -1,41 +1,33 @@
-# Decentralized Application
+# Sample Hardhat Project - Smart Contract Creation
 
-This repository is a guide for creating a Smart Contract within a Decentralized Application and integrating it with a React Application.
-
-## Prerequisites
-
-Before starting, make sure you have the following installed on your system:
-
-- [Node.js](https://nodejs.org)
-- [npm](https://www.npmjs.com/)
+This project serves as an illustrative example of Hardhat usage, featuring a sample Smart Contract, a corresponding Test Script, and a Deployment Script.
 
 ## Getting Started
 
-### Clone Repository
+To run the following commands, ensure that you have [Node.js](https://nodejs.org) installed.
 
-Clone this repository to your local machine using Git:
-   ```bash
-   git clone https://github.com/GameAnalyst-Hamza/Decentralized-Application.git
-   ```
+1. Install project dependencies:
 
-Checkout to Project directory:
-   ```bash
-   cd Decentralized-Application
-   ```
+    ```shell
+    npm install
+    ```
 
-Switch branch from main to Contract or D-Application
-   ```bash
-   git checkout Contract
-   ```
-   OR
-   ```bash
-   git checkout D-Application
-   ```
-   
-Install dependency using npm
-   ```bash
-   npm install
-   ```
+2. Start a local Hardhat node:
 
-> Note: 
-`Contract` and `D-Application` contains different reference code for practice checkout relative Readme.md file for whats covered on those branches
+    ```shell
+    npx hardhat node
+    ```
+
+3. Run tests:
+
+    ```shell
+    npx hardhat run --network hardhat test/Collection.js
+    ```
+
+4. Deploy the smart contract (replace `sepolia` with your desired network):
+
+    ```shell
+    npx hardhat run scripts/deploy.js --network sepolia
+    ```
+
+Feel free to explore and modify the provided smart contract, test, and deployment script to suit your needs.
