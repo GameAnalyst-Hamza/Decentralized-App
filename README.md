@@ -8,9 +8,9 @@ To run the following commands, ensure that you have [Node.js](https://nodejs.org
 
 Install project dependencies:
 
-    ```shell
-    npm install
-    ```
+```shell
+npm install
+```
 
 Start a local Hardhat node:
 
