@@ -1,41 +1,25 @@
-# Decentralized Application
+# Sample React Project - Integration with Smart Contract
 
-This repository is a guide for creating a Smart Contract within a Decentralized Application and integrating it with a React Application.
-
-## Prerequisites
-
-Before starting, make sure you have the following installed on your system:
-
-- [Node.js](https://nodejs.org)
-- [npm](https://www.npmjs.com/)
+This project demonstrates a basic React Application integrated with a sample smart contract.
 
 ## Getting Started
 
-### Clone Repository
+Follow the steps below to run the project locally:
 
-Clone this repository to your local machine using Git:
-   ```bash
-   git clone https://github.com/GameAnalyst-Hamza/Decentralized-Application.git
-   ```
+### Installation
 
-Checkout to Project directory:
-   ```bash
-   cd Decentralized-Application
-   ```
+Install dependencies:
 
-Switch branch from main to Contract or D-Application
-   ```bash
-   git checkout Contract
-   ```
-   OR
-   ```bash
-   git checkout D-Application
-   ```
-   
-Install dependency using npm
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
-> Note: 
-`Contract` and `D-Application` contains different reference code for practice checkout relative Readme.md file for whats covered on those branches
+### Run the Application
+
+Start the React application:
+
+```bash
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
