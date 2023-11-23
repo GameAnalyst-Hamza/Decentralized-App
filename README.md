@@ -20,7 +20,7 @@ Clone this repository to your local machine using Git:
 
 Checkout to Project directory:
    ```bash
-   cd Decentralized-Application
+   cd Decentralized-App
    ```
 
 Switch branch from main to Contract or D-Application
